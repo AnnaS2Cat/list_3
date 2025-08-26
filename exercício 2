@@ -1,0 +1,15 @@
+Considere o programa a seguir:
+#include <stdio.h>
+void main (void) {
+    printf("Soma = %d\n", 100-"10");
+}
+
+O que você espera que aconteça ao compilar o programa? Por quê?
+Eu espero subtrair 10 de 100
+
+Quais são os tipos dos operandos na operação de subtração?
+int e char
+
+Transcreva a mensagem de erro de compilação e a explique.
+error: invalid operands to binary - (have 'int' and 'char *')
+o erro é que: o "10" com aspas significa string, e não dá pra diminuir uma string de um inteiro, teria que tirar as aspas ou colocar atoi("10") no lugar do "10"
