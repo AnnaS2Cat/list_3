@@ -1,0 +1,20 @@
+Qual é a diferença entre tipagem estática e dinâmica?
+na estática geralmente precisa declarar o tipo das variáveis ou o compilador deduz, mas ainda assim em tempo de compilação
+na dinâmica os tipos das variáveis são definidos em tempo de execução, ela pode mudar de tipo enquanto o programa está rodando
+
+Dê exemplos de linguagens que usem tipagem estática e exemplos de linguagens que usem tipagem dinâmica.
+tipagem estática: C, C++, Java, Rust, Go
+tipagem dinâmica: Python, JavaScript, Ruby, PHP
+
+Por quê uma linguagem com tipagem estática é tipicamente mais rápida do que uma com tipagem dinâmica? Justifique usando um exemplo.
+a estática é mais rápida porque o compilador sabe tudo com antecedência, diferente da dinâmica que precisa verificar o tipo das variáveis durante a execução
+ex em C:
+int a = 10;
+int b = 20;
+int c = a + b; 
+
+ex em Python:
+a = 10
+b = 20
+c = a + b 
+
